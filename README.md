@@ -3,7 +3,18 @@
 This scrapy spider crawls recursively the [Prophy.science](https://prophy.science) API for all articles
 citing a given set of articles.
 
-To crawl from a list of seed papers `seed_papers.json` use the command:
+## Installation
+
+```
+git clone https://github.com/matteoacrossi/prophy_scraper.git
+```
+
+Requires `scrapy` and `networkx`.
+
+
+## Usage
+
+To crawl from a list of arXiv identifiers `seed_papers.json` use the command:
 
 ```
 scrapy crawl prophy -a seed_papers.json
