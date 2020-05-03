@@ -14,7 +14,6 @@ BOT_NAME = 'prophy_scraper'
 SPIDER_MODULES = ['prophy_scraper.spiders']
 NEWSPIDER_MODULE = 'prophy_scraper.spiders'
 
-DEPTH_LIMIT = 1
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'prophy_scraper (+http://www.yourdomain.com)'
 
