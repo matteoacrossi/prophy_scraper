@@ -20,5 +20,3 @@ The output of the scraper consists of two files `articles.json` and `links.json`
 ```
 python make_graph.py [articles.json] [links.json] [-o citation_graph.graphml]
 ```
-
-which will output
