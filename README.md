@@ -7,10 +7,8 @@ citing a given set of articles.
 
 ```
 git clone https://github.com/matteoacrossi/prophy_scraper.git
+pip install scrapy networkx
 ```
-
-Requires `scrapy` and `networkx`.
-
 
 ## Usage
 
