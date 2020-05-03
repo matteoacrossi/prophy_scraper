@@ -24,9 +24,10 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Parse output of prophy_scraper into a GraphML file')
     parser.add_argument('articles', type=argparse.FileType('r'),
-                        default='articles.json',
+                        default='articles.json',  nargs='?',
                         help='JSON file with articles (default articles.json)')
-    parser.add_argument('links', type=argparse.FileType('r'), default='links.json',
+    parser.add_argument('links', type=argparse.FileType('r'),
+                        default='links.json',  nargs='?',
                         help='JSON file with links (default links.json)')
     parser.add_argument('--output', '-o', type=argparse.FileType('wb'),
                         default='citation_graph.graphml',
